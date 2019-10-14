@@ -22,6 +22,7 @@ article.new {
     background-color: red;
 }
 
-.new, .posted-today {
+.new{
+/* .new, .posted-today { */
     background-color: pink;
 }

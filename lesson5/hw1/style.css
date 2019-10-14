@@ -1,18 +1,18 @@
-a[target="_blank"] {
+[target="_blank"] {
     color: green;
 }
 
-/* ol, ul {
+ol, ul {
     background-color: yellow;
-} */
+}
 
 header, footer {
     border: 3px dashed blue;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
-} */
+}
 
 article.new {
     font-size: 24px;

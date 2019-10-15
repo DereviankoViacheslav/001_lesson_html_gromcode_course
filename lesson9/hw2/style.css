@@ -28,6 +28,10 @@
     color: white;
 }
 
+.nav-item:first-child ~ .nav-item {
+    margin-left: 21px;
+}
+
 .content {
     height: 5000px;
     background-color: beige;

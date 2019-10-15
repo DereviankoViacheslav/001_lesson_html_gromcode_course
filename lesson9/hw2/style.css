@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-bottom: 300px;
+    height: 40px;
+    width: 100%;
+    padding: 10.8px 0;
+    position: fixed;
+    z-index: 999;
+    background-color: darkturquoise;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-left: 16px;
+    float: left;
+    list-style-type: none;
+    color: white;
+}
+
+.content {
+    height: 5000px;
+    position: relative;
+    background-color: beige;
+}
+
+.head {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #7effd4;
+}
+
+.ear {
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    background-color: brown;
+}
+
+.ear_right {
+    right: -40px;
+    top: -60px;
+}
+
+.ear_left {
+    left: -40px;
+    top: -60px;
+}
+
+.eye {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    background-color: gray;
+}
+
+.eye_right {
+    left: 40px;
+}
+
+.eye_left {
+    right: 40px;
+}

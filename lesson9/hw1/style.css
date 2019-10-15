@@ -27,3 +27,7 @@ div {
 .black {
     background-color: black;
 }
+
+.clear {
+    clear: both;
+}

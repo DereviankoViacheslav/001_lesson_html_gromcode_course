@@ -29,5 +29,7 @@ div {
 }
 
 .clear {
+    height: 0;
+    width: 100%;
     clear: both;
 }

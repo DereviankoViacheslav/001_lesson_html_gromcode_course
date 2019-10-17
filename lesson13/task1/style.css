@@ -10,7 +10,7 @@
   font-weight: 700;
   color: white;
   text-align: center;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-image: url(./img/nature.jpeg);
   background-position: center;
   background-size: cover;
 }

@@ -21,12 +21,12 @@
 .first-word {
     font-size: 24px;
     opacity: 0.8;
-    font-weight: 700;
     letter-spacing: 3px;
     text-decoration: underline;
 }
 
 .translation {
+    font-style: italic;
     color: gray;
 }
 

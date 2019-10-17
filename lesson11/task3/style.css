@@ -39,3 +39,7 @@
 .dropdown:hover {
     background-color: rgba(0, 100, 0, 1);
 }
+
+.menu-item:hover {
+    background-color: ghostwhite;
+}

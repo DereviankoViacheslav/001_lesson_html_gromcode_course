@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  /* text-align: center; */
+  margin: 0 16px;
+  font-size: 74px;
+}

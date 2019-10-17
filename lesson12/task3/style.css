@@ -8,7 +8,7 @@
 }
 
 .first {
-  text-decoration: overline;
+  text-decoration: overline red;
 }
 
 .second {
@@ -16,5 +16,5 @@
 }
 
 .third {
-  text-decoration: underline red;
+  text-decoration: underline green;
 }

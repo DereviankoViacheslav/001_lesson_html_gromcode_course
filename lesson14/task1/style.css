@@ -6,6 +6,10 @@ body {
   font-size: 18px;
 }
 
+.properties-list {
+  margin: 23px 0;
+}
+
 .properties-list__item {
   padding: 8px;
   line-height: 32px;

@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin-top: 100px;
-}
-
 iframe {
     display: block;
     height: 400px;

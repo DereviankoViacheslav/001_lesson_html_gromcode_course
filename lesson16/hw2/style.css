@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 32px;
+}
+
+.form-control {
+    margin: 16px;
+}
+
+textarea, button {
+    margin: 0 16px;
+}

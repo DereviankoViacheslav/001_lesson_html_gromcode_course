@@ -27,6 +27,10 @@ body {
     font-family: monospace;
 }
 
+.form-control {
+    margin-bottom: 8px;
+}
+
 .form-title {
     width: 100%;
     text-align: center;
@@ -35,7 +39,6 @@ body {
 
 .form-label {
     display: inline-block;
-    padding-top: 8px;
 }
 
 .form-input {
@@ -59,5 +62,5 @@ body {
 }
 
 .form-input:invalid {
-    border: 3px solid #ff0000;
+    /* border: 3px solid #ff0000; */
 }

@@ -3,6 +3,7 @@
 }
 
 .checkbox {
+    display: block;
     position: relative;
     margin: 16px;
     padding-left: 35px;

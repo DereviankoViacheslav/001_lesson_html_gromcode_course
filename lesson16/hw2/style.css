@@ -7,7 +7,11 @@
 }
 
 .form-control {
-    margin: 8px 16px;
+    margin: 8px;
+}
+
+input[type="color"] {
+    height: 28px;
 }
 
 textarea, button {

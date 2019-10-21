@@ -38,7 +38,7 @@ body {
 .form-input {
     height: 32px;
     width: 100%;
-    margin: 4px 0 8px;
+    margin: 4px 0 0;
     padding: 4px;
     border-radius: 4px;
     border: 1px solid #808080;
@@ -53,7 +53,6 @@ body {
     color: white;
     text-transform: uppercase;
     background-color: #ff7f50;
-    border: none;
 }
 
 .form-input:invalid {

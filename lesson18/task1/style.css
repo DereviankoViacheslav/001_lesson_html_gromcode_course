@@ -2,23 +2,27 @@
     box-sizing: border-box;
 }
 
+html, body {
+    /* height: 100%; */
+}
+
 .row {
     display: flex;
-}
-
-.small-bird {
-    height: 64px;
-    width: 64px;
-}
-
-.large-bird {
-    height: 320px;
-    width: 320px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    flex-grow: 1;
+}
+
+.bird-small {
+    height: 64px;
+    width: 64px;
+}
+
+.bird-large {
+    height: 320px;
+    width: 320px;
 }

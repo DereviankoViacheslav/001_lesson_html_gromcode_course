@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 .custom-button {
     height: 50px;
     width: 200px;

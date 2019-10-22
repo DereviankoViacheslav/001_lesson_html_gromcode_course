@@ -2,13 +2,10 @@
     box-sizing: border-box;
 }
 
-/* html, body {
-    height: 100%;
-} */
-
 .content {
     display: flex;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .gallery {
@@ -32,8 +29,9 @@
 .idea {
     margin: auto;
     padding: 4px;
-    color: #fff;
+    font-size: 24px;
     font-weight: 700;
+    color: #fff;
     text-transform: uppercase;
     overflow: hidden;
     white-space: nowrap;

@@ -13,12 +13,12 @@
     flex-grow: 1;
 }
 
-.bird-small {
+.small-bird {
     height: 64px;
     width: 64px;
 }
 
-.bird-large {
+.large-bird {
     height: 320px;
     width: 320px;
 }

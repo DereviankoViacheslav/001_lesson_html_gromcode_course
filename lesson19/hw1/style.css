@@ -27,7 +27,7 @@
     }
 }
 
-.container {
+body {
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -35,6 +35,7 @@
 }
 
 .wrapper {
+    height: 4px;
     position: relative;
 }
 

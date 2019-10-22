@@ -11,20 +11,16 @@ html, body {
     width: 200px;
     margin: 64px;
     line-height: 50px;
-    text-align: center;
-    background-color: coral;
-    color: white;
     border-radius: 4px;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     border: none;
-    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: coral;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
     outline: none;
-}
-
-.custom-button:hover {
-    color: darkcyan;
+    cursor: pointer;
 }
 
 .bird-icon {
@@ -34,6 +30,10 @@ html, body {
     fill: white;
 }
 
-.custom-button:hover>.bird-icon {
+.custom-button:hover {
+    color: darkcyan;
+}
+
+.custom-button:hover > .bird-icon {
     fill: green;
 }

@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 3em;
+    padding: 0 1em;
+    align-items: center;
+    background-color: #eee;
+}
+
+.burger-menu {
+    padding: 0;
+    font-size: 2em;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navigation {
+    visibility: hidden;
+    max-width: 20vw;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    height: 2em;
+    margin: .5em 0;
+    color: white;
+    background-color: #808080;
+}
+
+.nav-list-link {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 600px) {
+    .burger-menu {
+        visibility: hidden;
+    }
+    .navigation {
+        visibility: visible;
+    }
+}
+
+
+
+/* Элементу <html> задайте шрифт Arial, Helvetica, sans-serif и размер шрифта 16px
+Хедеру дайте высоту 3em, внутренние отступы по бокам - 1em, цвет фона - #eee
+В хедер добавьте кнопку, а в кнопку - Font Awesome (5 версии) иконку fa-bars. Икона должна иметь размер шрифта 2em. У кнопки уберите внутренние отступы, обводку, границу и фон. Задайте курсор pointer и отцентрируйте в хедере по вертикали
+Из списка в навигации уберите стандартные paddings и точки перед элементами списка. Навигация должна занимать 20% ширины страницы
+Каждый элемент списка имеет #808080 цвет фона, белый шрифт и высоту 2em. Отступ между элементами меню - 0.5em.
+Ссылка должна занимать весь! элемент навигации. Текст ссылки должен отступать от края элемента на 0.5em.
+Ссылка должна быть без стандартного подчеркивания и белого цвета.
+При уменьшении ширины текст ссылки не должен выходить за границы элемента меню и в конце должно появляться троеточие
+Иконка в хедере должна отображаться при ширине экрана до 600px, а боковое меню при этом быть скрытым. При ширине экрана 600px и больше - иконку спрятать, а боковое меню отобразить */

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background: linear-gradient(60deg, red, orange);
+}
+
+.footer {
+    padding: 0.5em;
+    background-color: #e5e5e5;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.navigation,
+.section,
+.news {
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    display: flex;
+    height: 2em;
+    margin: 0.5em 0;
+    align-items: center;
+    background-color: #808080;
+}
+
+.nav-list-link {
+    margin: 0.5em;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    font-size: 1.25em;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.section__img {
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    font-size: 1.125em;
+    font-weight: 700;
+    background-color: #e5e5e5;
+    color: #8b0000;
+}
+
+.news {
+    width: 100%;
+}
+
+.img {
+    max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 600px) {
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .section {
+        width: 60%;
+    }
+    .news {
+        width: 20%;
+    }
+}
+
+/* Добавьте изображение под хедером. При ширине экрана до 600px должна отображаться картинка small.png, а при 600px и больше - big.png
+Картинки должны растягиваться по ширине, но не больше своей оригинальной ширины. Дайте картинке тень 0px 4px 8px 0px rgba(0, 0, 0, 0.2)
+При ширине экрана до 600px все секции должны располагаться одна под другой в колонку и занимать всю ширину каждая
+При ширине экрана 600px и до 900px - навигация и основная секция должны быть в одной строке. При чем навигация должна занимать 20% ширины, а все остальное - основная секция. Новости должны располагаться под первыми двумя и растягиваться на всю ширину
+При ширине экрана 900px и больше - три секции должны располагаться в одну линию. Навигация должна занимать 20% ширины экрана, основная секция - 60%, новости - 20%
+ */

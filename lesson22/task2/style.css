@@ -1,31 +1,30 @@
-* {
-    box-sizing: border-box;
-}
-
-.block {
+.navigation {
     display: flex;
     flex-grow: 1;
     min-height: 200px;
-}
-
-.navigation {
     background-color: #ff7f50;
 }
 
 .products-list {
+    display: flex;
+    flex-grow: 1;
+    min-height: 200px;
     background-color: #006400;
 }
 
 .news {
+    display: flex;
+    flex-grow: 1;
+    min-height: 200px;
     background-color: #0ff;
 }
 
-.text {
+span {
     margin: auto;
     padding: 8px;
     border-radius: 4px;
     text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     background-color: #faebd7;
 }
 

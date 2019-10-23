@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+.font-in-px {
+    font-size: 27px;
+}
+
+.font-in-em {
+    font-size: 1.5em;
+}
+
+.font-in-vw {
+    font-size: 5vw;
+}
+
+.font-in-percents {
+    font-size: 150%;
+}
+
+.font-in-rem {
+    font-size: 1.5rem;
+}
+
+
+/* Элементу <html> задайте размер шрифта 18px
+Элементы с классом .font-in-px должны иметь размер шрифта 27px
+Элементы с классом .font-in-em должны иметь размер шрифта 1.5em
+Элементы с классом .font-in-vw должны иметь размер шрифта 5wv
+Элементы с классом .font-in-percents должны иметь размер шрифта 150%
+Элементы с классом .font-in-rem должны иметь размер шрифта 1.5rem */

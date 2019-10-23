@@ -27,12 +27,13 @@ html {
 
 .navigation {
     visibility: hidden;
-    margin: .5em;
+    margin: 1.5em .5em;
     max-width: 20vw;
 }
 
 .nav-list {
     padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 

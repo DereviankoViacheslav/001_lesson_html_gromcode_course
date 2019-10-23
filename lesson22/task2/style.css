@@ -4,7 +4,7 @@
 
 .block {
     display: flex;
-    flex-grow: 1;
+    width: 100%;
     min-height: 200px;
 }
 
@@ -32,7 +32,9 @@
 @media screen and (min-width: 600px) {
     .products {
         display: flex;
-        flex-grow: 2;
+    }
+    .block {
+        width: 33.33vw;
     }
 }
 

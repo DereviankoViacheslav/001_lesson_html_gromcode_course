@@ -16,7 +16,8 @@ html {
 }
 
 .burger-menu {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 2em;
     border: none;
     outline: none;
@@ -26,6 +27,7 @@ html {
 
 .navigation {
     visibility: hidden;
+    margin: .5em;
     max-width: 20vw;
 }
 

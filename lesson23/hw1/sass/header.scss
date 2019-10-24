@@ -1,0 +1,80 @@
+.header {
+    background-color: #006400;
+}
+
+.nav {
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    height: 3em;
+    margin: 0 0 0 3em;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    list-style-type: none;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+        line-height: 100%;
+        cursor: pointer;
+
+        &_active {
+            position: relative;
+        }
+
+    }
+
+    &__item:hover {
+        color: yellow;
+        background-color: #9acd32;
+
+         .submenu {
+            display: block;
+        }
+
+    }
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 3em;
+    min-width: 120px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    color: white;
+    background-color: #ff7f50;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        height: 3em;
+        padding: 0 8px;
+        cursor: pointer;
+    }
+
+    &__item:hover {
+        color: #000;
+    }
+
+}
+
+/*Стили хедера пишите в файле header.scss. Все остальные стили в файле index.scss, который будет точкой входа для препроцессора. Препроцессор должен собрать все стили в файле styles.css, который лежит рядом с index.html.
+
+Основные требования:
+Как всегда, не забываем про box-sizing
+Шрифт документа- Verdana, Geneva, Tahoma, sans-serif;, 16px
+Высота хедера - 3em, цвет - #006400
+Для списка сделайте отступ слева 3em и обнулите вертикальные отступы. Весь текст должен отображаться в верхнем регистре
+У элементов списка горизонтальные отступы - 8px. При наведении мыши цвт фона должен поменяться на #9acd32
+Выпадающему списку обнулите все отступы, задайте цвет фона #ff7f50 и добавьте тень (box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);). Цвет - текста по умолчанию - #fff. Минимальная ширина выпадающего меню должна быть 120px. Задайте z-index 1, чтобы меню выпадало над остальным контентом
+Элементы списка должны иметь внутренние отступы 8px по горизонтали. И менять цвет текста на черный при наведении курсора мыши
+Для всех элементов меню установите курсор pointer*/

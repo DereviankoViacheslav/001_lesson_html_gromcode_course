@@ -29,6 +29,10 @@ body {
         background-color: #c47;
     }
 
+    @include for-orientation-landscape {
+        margin: 8px;
+    }
+
 }
 
 .container {

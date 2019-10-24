@@ -1,0 +1,46 @@
+.content {
+
+    &__navigation {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #ff7f50;
+    }
+    
+    &__products-list {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #006400;
+    }
+    
+    &__news {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #0ff;
+    }
+
+    &__text {
+        margin: auto;
+        padding: 8px;
+        border-radius: 4px;
+        text-transform: lowercase;
+        font-family: Verdana;
+        background-color: #faebd7;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .content__products {
+        display: flex;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+    }
+}
